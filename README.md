@@ -6,8 +6,6 @@ A frontend-based notification system built using React that allows users to crea
 
 ---
 
-## 📂 GitHub Repository
-https://github.com/Nikita-Saxena391/notification-app
 
 ---
 

@@ -1,24 +1,19 @@
-# 📢 Notification System
+#  Notification System
 
 A frontend-based notification system built using React that allows users to create, view, sort, and filter notifications. The application is designed with a focus on modularity, responsiveness, and graceful error handling.
 
----
 
----
-
-
----
 
 ## ✨ Features
 
-- ✅ Create notifications (Placement / Event / Result)
-- ✅ Real-time UI updates (instant display without waiting for API)
-- ✅ Priority-based sorting  
+- Create notifications (Placement / Event / Result)
+- Real-time UI updates (instant display without waiting for API)
+- Priority-based sorting  
   - Placement > Event > Result  
-- ✅ Filtering by notification type
-- ✅ Logging middleware integration
-- ✅ Error handling with fallback data
-- ✅ Clean and responsive UI
+- Filtering by notification type
+- Logging middleware integration
+- Error handling with fallback data
+- Clean and responsive UI
 
 ---
 
@@ -31,7 +26,7 @@ A frontend-based notification system built using React that allows users to crea
 
 ---
 
-## 🧠 Architecture
+##  Architecture
 
 - **Components**
   - `NotificationForm` → Handles user input
@@ -47,7 +42,7 @@ A frontend-based notification system built using React that allows users to crea
 ---
 
 
-## 🔄 Data Flow
+##  Data Flow
 
 1. User enters notification details  
 2. UI updates instantly using local state  
@@ -57,15 +52,9 @@ A frontend-based notification system built using React that allows users to crea
 
 ---
 
-## ⚠️ Error Handling
 
-- Graceful handling of API failures  
-- Fallback mock data ensures uninterrupted user experience  
-- Logging system captures errors without breaking UI  
 
----
-
-## 🧪 How to Run Locally
+##  How to Run Locally
 
 ```bash
 # Clone repo
